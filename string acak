@@ -1,0 +1,10 @@
+<?php 
+    echo "<br>";
+    $cetak = 3;
+    for($i=1; $i<=$cetak; $i++){
+    	if($cetak>0){
+			echo md5($i);
+			echo "<br>";
+    	}
+    }
+     ?>   
