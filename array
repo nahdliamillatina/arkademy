@@ -1,0 +1,5 @@
+<?php 
+  $abjad1 = array('b','c','a');
+  sort($abjad1);
+  print_r($abjad1);
+   ?>
