@@ -1,0 +1,15 @@
+function login($data){
+	$username = strtolower(stripcslashes($data['username']));
+	$password = md5($data['password']);
+	if(strlen($username) < 8){
+		echo "<script>alert('data harus 8 digit');</script>";
+		return false;
+	}else if(strlen($username) > 8){
+		echo "<script>alert('data harus 8 digit');</script>";
+		return false;
+	}
+	if(strlen/($password < 8)){
+		echo "<script>alert('password minimal 8 digit karakter'); </script>";
+		return false;
+	}
+}
