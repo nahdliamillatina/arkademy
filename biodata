@@ -1,0 +1,13 @@
+var name = "Nahdlia Millatina";
+var address = "Jalan Urip Sumoharjo Gg Lapangan Amor Medono Pekalongan Barat";
+var hobbies = ['membaca','bersepeda'];
+var is_merried = false;
+var school = "SMK Syafi'i Akrom";
+var skills = ['java'];
+
+console.log('Name : '+name);
+console.log('Address : '+address);
+console.log('Hobbies : '+hobbies);
+console.log('Is Merried : '+is_merried);
+console.log('School : '+school);
+console.log('Skill : '+skills);
